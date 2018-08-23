@@ -54,5 +54,5 @@ def train(trials):
         neural_net_result = evaluate_neural_network(inputs, weights)
         learn(inputs, weights)
 
-
-train(trials)   # do it..
+if __name__ == '__main__':
+    train(trials)   # do it..
